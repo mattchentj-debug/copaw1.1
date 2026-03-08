@@ -1,0 +1,15 @@
+{
+  "type": "event_callback",
+  "token": "y5toL1oBBYwdzHDePENz5fOf7Z7qZlLK",
+  "challenge": "test-challenge-12345",
+  "event": {
+    "msg_type": "text",
+    "content": {
+      "text": "@机器人 你好"
+    },
+    "chat_id": "oc_1234567890abcdef",
+    "sender_id": {
+      "user_id": "user123"
+    }
+  }
+}
