@@ -4,7 +4,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "feishu_webhook_server.py"
+      "dest": "/api/feishu_webhook_server.py"
     }
   ],
   "env": {
@@ -13,7 +13,7 @@
     "FEISHU_BOT_WEBHOOK_URL": "https://open.feishu.cn/open-apis/bot/v2/hook/60e45bac-c7e1-46a5-b145-26ec36cca56b"
   },
   "functions": {
-    "feishu_webhook_server.py": {
+    "api/feishu_webhook_server.py": {
       "memory": 1024,
       "maxDuration": 10
     }
