@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "copaw-feishu-bot",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "feishu_webhook_server.py"
+    }
+  ],
+  "env": {
+    "FEISHU_VERIFICATION_TOKEN": "y5toL1oBBYwdzHDePENz5fOf7Z7qZlLK",
+    "FEISHU_ENCRYPT_KEY": "WI0n1FA94MJmkZoZuCLv1dlOFK7O0dAi",
+    "FEISHU_BOT_WEBHOOK_URL": "https://open.feishu.cn/open-apis/bot/v2/hook/60e45bac-c7e1-46a5-b145-26ec36cca56b"
+  },
+  "functions": {
+    "feishu_webhook_server.py": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}
